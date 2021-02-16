@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Regressiva</title>
+    <script src="./regressivo.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Contagem regressiva</h1>
+    <form name="form_main">
+        <label for="numero">Data:</label>
+        <input name='date_end' type="date" onblur="resetCountdown()" />
+        <br>
+    </form>
+    <div class="container">
+        <h1>Contagem regressiva até a data selecionada:</h1>
+        <ul>
+            <li><span id="days"></span>Dias</li>
+            <li><span id="hours"></span>Horas</li>
+            <li><span id="minutes"></span>Minutos</li>
+            <li><span id="seconds"></span>Segundos</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Prova EsPCEx</h1>
+        <ul>
+            <li><span id="days1"></span>Dias</li>
+            <li><span id="hours1"></span>Horas</li>
+            <li><span id="minutes1"></span>Minutos</li>
+            <li><span id="seconds1"></span>Segundos</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
